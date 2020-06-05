@@ -34,6 +34,10 @@ export const ContentProducts = styled.div`
   @media all and (max-width: 600px) {
     grid-template-columns: 1fr 1fr;
   }
+
+  @media all and (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const BoxProduct = styled.div`
